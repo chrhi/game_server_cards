@@ -1,0 +1,49 @@
+import express from "express";
+// import http from "http";
+// import { Server } from "socket.io";
+// import cors from "cors";
+// import { json } from "stream/consumers";
+
+// const PORT = 4000;
+
+
+
+// const app = express();
+// app.use(express.json());
+// app.use(cors);
+
+// // const server = http.createServer(app);
+
+// app.get('/', (req, res) =>{
+//     console.log("server is running with our socket ")
+//    return res.json({message:"the server is running with our socket"})
+// })
+
+
+
+
+// // server.listen(PORT, () => {
+// //     console.log(`server socket is listening on port ${PORT}`);
+// //     console.log(`http://localhost:${PORT}`);
+// //   });
+
+// app.listen(PORT, () => {
+//     console.log(`http://localhost:${PORT}`);
+// })
+
+
+// //   const io = new Server(server, {
+// //     cors: {
+// //       origin: "*",
+// //       methods: ["GET", "POST"],
+// //     },
+// //   });
+  
+
+
+// // io.on("connection", (socket) => {
+ 
+// // });
+
+
+

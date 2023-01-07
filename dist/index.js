@@ -1,12 +1,9 @@
 import express from "express";
-import http from "http";
-import socket from "socket.io";
-const app = express();
-app.get('/', (req, res) => {
-    res.json({ "the server is working ": "true" });
-    console.log("server is working with socket ");
+var app = express();
+app.get('/', function (req, res) {
+    console.log("the express is working");
+    res.json({ success: "hello my express app" });
 });
-const server = http.createServer(app);
-const io = socket(server);
-io.on('connection', () => { });
-server.listen(4000);
+app.listen(4000, function () {
+    console.log(" http://localhost:4000");
+});
